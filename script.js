@@ -63,7 +63,7 @@ function switchLang(lang) {
 
 function toggleTheme() {
     const html = document.documentElement;
-    const currentTheme = html.getAttribute('data-theme') || 'light';
+    const currentTheme = html.getAttribute('data-theme') || 'dark';
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     
     html.setAttribute('data-theme', newTheme);
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     
     // Check for saved theme preference
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', savedTheme);
     
     // Check if there's a stored language preference or default to ar
