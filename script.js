@@ -31,7 +31,7 @@ const translations = {
 
 function downloadApk() {
     if (/Android/i.test(navigator.userAgent)) {
-        window.location.href = "almofeed-app-releaseV2.0.5.apk";
+        window.location.href = "almofeed-app-releaseV2.0.6.apk";
     } else {
         alert("يرجى فتح الموقع من جهاز Android لتحميل التطبيق.");
     }
