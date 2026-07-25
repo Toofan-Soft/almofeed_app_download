@@ -31,7 +31,7 @@ const translations = {
 
 function downloadApk() {
     if (/Android/i.test(navigator.userAgent)) {
-        window.location.href = "app-arm64-v8a-release-v1.0.1.apk";
+        window.location.href = "app-arm64-v8a-release-v1.0.2.apk";
     } else {
         alert("يرجى فتح الموقع من جهاز Android لتحميل التطبيق.");
     }
